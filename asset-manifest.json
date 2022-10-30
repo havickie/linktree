@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.029f6588.css",
+    "main.js": "/static/js/main.8705f3bf.js",
+    "static/js/787.55f350d7.chunk.js": "/static/js/787.55f350d7.chunk.js",
+    "static/media/profile-img.png": "/static/media/profile-img.00c69e81d1be21dd0504.png",
+    "static/media/I4G.svg": "/static/media/I4G.361fe9004147fd213153c43561e8c340.svg",
+    "static/media/Zuri.Internship_Logo.svg": "/static/media/Zuri.Internship_Logo.428cf03f5de8c94bd46fff3da1fb5668.svg",
+    "static/media/slack-icon.svg": "/static/media/slack-icon.6fa75d08a444264c64393c623e71c055.svg",
+    "static/media/github-icon.svg": "/static/media/github-icon.e94422cc521d2934fc5ccbdf0447c0c6.svg",
+    "static/media/menu-button.svg": "/static/media/menu-button.219d65fad44a57f4737f6ae835840ef1.svg",
+    "static/media/share-link.svg": "/static/media/share-link.8d9a7a1c3aa3824a2781dff6eb2e77e8.svg",
+    "index.html": "/index.html",
+    "main.029f6588.css.map": "/static/css/main.029f6588.css.map",
+    "main.8705f3bf.js.map": "/static/js/main.8705f3bf.js.map",
+    "787.55f350d7.chunk.js.map": "/static/js/787.55f350d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.029f6588.css",
+    "static/js/main.8705f3bf.js"
+  ]
+}
