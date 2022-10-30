@@ -12,7 +12,7 @@ const Profile = () => {
         <h4 id='slack' className='hidden'>
           Astrocub
         </h4>
-        <h4>Obi Victor</h4>
+        <h4 id='twitter'>Haveekk</h4>
       </div>
     </div>
   );

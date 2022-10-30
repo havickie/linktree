@@ -13,21 +13,21 @@ const Links = () => {
 
       <div className='link-boxes tooltip'>
         <a title='red on' href='https://training.zuri.team/'>
-          <button id=''>Zuri Team</button>
+          <button id='btn__zuri'>Zuri Team</button>
           <span class='tooltiptext'>Register to join the next cohort</span>
         </a>
       </div>
 
       <div className='link-boxes tooltip'>
         <a href='https://books.zuri.team/'>
-          <button id=''>Zuri Books</button>
+          <button id='books'>Zuri Books</button>
           <span class='tooltiptext'>Dig into a good book today!</span>
         </a>
       </div>
 
       <div className='link-boxes tooltip'>
         <a href='https://books.zuri.team/python-for-beginners?ref_id=astrocub'>
-          <button id=''>Python Books</button>
+          <button id='book__python'>Python Books</button>
           <span class='tooltiptext'>
             Provides you with the information and standards you need to develop
             genuinely professional designs
@@ -37,7 +37,7 @@ const Links = () => {
 
       <div className='link-boxes tooltip'>
         <a href='https://background.zuri.team/'>
-          <button id=''>Background Check for Coders</button>
+          <button id='pitch'>Background Check for Coders</button>
           <span class='tooltiptext'>
             Do you waste a lot of time looking for legitimate expert coders?
             That is time that may be better spent finding new clients for your
@@ -48,7 +48,7 @@ const Links = () => {
 
       <div className='link-boxes tooltip'>
         <a href='https://books.zuri.team/design-rules'>
-          <button id=''>Design Books</button>
+          <button id='book__design'>Design Books</button>
           <span class='tooltiptext'>
             Click to get a free design book to kick start a tech career
           </span>
