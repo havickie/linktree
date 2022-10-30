@@ -42,11 +42,9 @@ a {
   color: #101828;
 }
 
-.link-boxes {
-  margin-bottom: 1rem;
-}
 
-div a button {
+.link-boxes a {
+  margin-bottom: 1.2rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -60,13 +58,13 @@ div a button {
   cursor: pointer;
   align-items: center;
   text-align: center;
-  height: 76px;
   background: #eaecf0;
   border: 1px solid #eaecf0;
   border-radius: 8px;
+  padding: 23px 0;
 }
 
-div a button:hover {
+.link-boxes a:hover {
   background: #c8ccd3;
   border: 1px solid #eaecf0;
 }
