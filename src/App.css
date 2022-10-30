@@ -21,13 +21,14 @@ a {
   /* profile-pic */
 }
 
-.profile-picture {
+.profile {
   justify-content: center;
   text-align: center;
   padding-top: 3rem;
 }
 
 #profile__img {
+   transition: .5s ease;
   height: 9.5rem;
 }
 
@@ -125,6 +126,37 @@ div a button:hover {
 
   color: #667085;
 }
+.profile-picture{
+  position: relative;
+  display: inline;
+  
+}
+#profile__img:hover{
+  -webkit-filter: brightness(.5);
+   filter: brightness(.5);
+}
+
+
+.middle img{
+
+  height: 1.8rem;
+}
+.middle {
+    display: inline;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  -ms-transform: translate(-50%, -100%);
+  text-align: center;
+}
+.profile-picture:hover .middle {
+  opacity: 1;
+  
+}
+
 
 @media only screen and (max-width: 900px) {
   .menu-div {
