@@ -1,38 +1,174 @@
-.App {
-  text-align: center;
+.container {
+  padding: 2.5rem 10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hidden {
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.menu-button {
+  display: none;
+}
+
+.menu-div {
+  float: right;
+  margin-right: 10%;
+
+  /* profile-pic */
+}
+
+.profile-picture {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  padding-top: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+#profile__img {
+  height: 9.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.profile-name {
+  padding-bottom: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #101828;
+}
+
+.link-boxes {
+  margin-bottom: 1rem;
+}
+
+div a button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #101828;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  height: 76px;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+}
+
+div a button:hover {
+  background: #c8ccd3;
+  border: 1px solid #eaecf0;
+}
+/* subtext */
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 50%;
+  background-color: #797f89;
+  color: rgb(237, 237, 237);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+ top: -5px;
+  left: 60%;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.socials-div {
+  margin-top: 2rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.socials img {
+  height: 2rem;
+  margin: 0 0.3rem;
+}
+
+.footer-div {
+  padding: 0rem 7%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ededed;
+  padding: 2rem 3rem;
+}
+
+.copy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #667085;
+}
+
+@media only screen and (max-width: 900px) {
+  .menu-div {
+    float: right;
+    margin-right: 1%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .container {
+    padding: 2.5rem 10%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .menu-button {
+    display: block;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    border-top: 1px solid #ededed;
+    padding: 2rem 0rem;
+  }
+
+  .copy {
+    text-align: left;
+  }
+
+  .footer img {
+    height: 2rem;
+    text-align: left;
+    padding: 1rem 0;
+  }
+
+  #profile__img {
+    height: 5.5rem;
+  }
+
+  .share-button {
+    display: none;
+  }
+
+  .container {
+    padding: 2.5rem;
   }
 }
