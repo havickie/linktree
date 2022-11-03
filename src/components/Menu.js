@@ -1,17 +1,17 @@
-import React from 'react'
+import React from 'react';
 import '../App.css';
-import menu from '../img/menu-button.svg'
-import share from '../img/share-link.svg'
+import menu from '../img/menu-button.svg';
+import share from '../img/share-link.svg';
 
 const Menu = () => {
   return (
     <div>
-     <a href="">
-     <img className='menu-button' src={menu} alt="menu button" />
-     <img className='share-button' src={share} alt="share button" />
-     </a>
+      <a>
+        <img className='menu-button' src={menu} alt='menu button' />
+        <img className='share-button' src={share} alt='share button' />
+      </a>
     </div>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;

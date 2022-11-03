@@ -54,7 +54,9 @@ const Links = () => {
         >
           Design Books
         </a>
-      </div>{' '}
+
+<a id='contact' href='/contact'>Contact Me</a>
+      </div>
     </>
   );
 };
