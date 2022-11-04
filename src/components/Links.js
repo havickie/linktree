@@ -1,10 +1,11 @@
 import React from 'react';
 import '../App.css';
 
+
 const Links = () => {
   return (
     <>
-      <div className='link-boxes tooltip'>
+      <div className=' link-boxes'>
         <a
           title='follow me on twitter'
           id=''
