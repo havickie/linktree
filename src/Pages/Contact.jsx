@@ -71,7 +71,7 @@ const Contact = () => {
                 type='text'
                 placeholder='enter your first name'
                 name='fName'
-                id='firstName_input'
+                id='first_name'
                 value={formValue.fName}
               />
               <span className='text-danger'>{formError.fName}</span>
@@ -85,7 +85,7 @@ const Contact = () => {
                 type='text'
                 placeholder='enter your last name'
                 name='lName'
-                id='lastName_input'
+                id='last_name'
                 value={formValue.lName}
               />
               <span className='text-danger'>{formError.lName}</span>
@@ -98,7 +98,7 @@ const Contact = () => {
                 type='text'
                 placeholder='yourname@email.com'
                 name='email'
-                id='email_input'
+                id='email'
                 value={formValue.email}
               />
               <span className='text-danger'>{formError.email}</span>
@@ -110,7 +110,7 @@ const Contact = () => {
                 className='form-control'
                 name='message'
                 placeholder="Send me a message and i'll reply as soon as possible..."
-                id='message_input'
+                id='message'
                 cols='30'
                 rows='5'
                 value={formValue.message}
@@ -134,6 +134,7 @@ const Contact = () => {
               name='button'
               className='btn btn-primary button'
               type='submit'
+              id='btn__submit'
             >
               Send message
             </button>
