@@ -1,9 +1,7 @@
-
-
 a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: #000;
 }
 
@@ -29,7 +27,7 @@ a:hover{
 }
 
 #profile__img {
-   transition: .5s ease;
+  transition: 0.5s ease;
   height: 9.5rem;
 }
 
@@ -42,7 +40,6 @@ a:hover{
   text-align: center;
   color: #101828;
 }
-
 
 .link-boxes a {
   margin-bottom: 1.2rem;
@@ -101,24 +98,21 @@ a:hover{
 
   color: #667085;
 }
-.profile-picture{
+.profile-picture {
   position: relative;
   display: inline;
-  
 }
-#profile__img:hover{
-  -webkit-filter: brightness(.5);
-   filter: brightness(.5);
+#profile__img:hover {
+  -webkit-filter: brightness(0.5);
+  filter: brightness(0.5);
 }
 
-
-.middle img{
-
+.middle img {
   height: 1.8rem;
 }
 .middle {
-    display: inline;
-  transition: .5s ease;
+  display: inline;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -129,17 +123,17 @@ a:hover{
 }
 .profile-picture:hover .middle {
   opacity: 1;
-  
 }
-
+.con{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
 
 @media only screen and (max-width: 900px) {
   .menu-div {
     float: right;
     margin-right: 1%;
   }
-
-
 }
 
 @media only screen and (max-width: 500px) {
@@ -174,141 +168,195 @@ a:hover{
   }
 }
 
+
+
 /* FORM */
-
-
-.form {
-color: #101828;
-  padding: 40px;
-  max-width: 600px;
-  margin: 40px auto;
-  border-radius: 4px;
-  box-shadow: 0 4px 10px 4px rgba(239, 241, 242, 0.3);
-}
-
-.tab-group {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 40px 0;
-}
-.tab-group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.tab-group li a {
-  display: block;
-  text-decoration: none;
-  padding: 15px;
-  background: rgba(160, 179, 176, 0.25);
-  color: #a0b3b0;
-  font-size: 20px;
-  float: left;
-  width: 50%;
-  text-align: center;
-  cursor: pointer;
-  transition: .5s ease;
-}
-.tab-group li a:hover {
-  background: #179b77;
-}
-h1 {
-  text-align: center;
-  font-weight: 300;
-  margin: 0 0 40px;
-}
-
 label {
-  position: absolute;
-  transform: translateY(6px);
-  left: 13px;
-  color: rgba(255, 255, 255, 0.5);
-  transition: all 0.25s ease;
-  pointer-events: none;
-  font-size: 22px;
-}
-label .req {
-  margin: 2px;
-  color: #1ab188;
+  padding-top: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 16px;
+  color: #344054;
 }
 
-label.active {
-  transform: translateY(50px);
-  left: 2px;
-  font-size: 14px;
-}
-label.active .req {
-  opacity: 0;
-}
-
-input, textarea {
+input,
+textarea {
   font-size: 22px;
   display: block;
   width: 100%;
   height: 100%;
-  padding: 5px 10px;
-  background: none;
-  background-image: none;
-  border: 1px solid #a0b3b0;
-  border-radius: 0;
-  transition: border-color .25s ease, box-shadow .25s ease;
+  border: 1px solid #a0b3b0;}
+
+.button {
+  outline: none;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+  display: block;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  height: 48px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-top: 15px;
 }
-input:focus, textarea:focus {
-  outline: 0;
-  border-color: #1ab188;
+@media only screen and (max-width: 500px) {
+  .rows {
+    flex-direction: column;
+  }
 }
 
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+input,
+select,
 textarea {
-  border: 2px solid #a0b3b0;
-  resize: vertical;
-}
-
-.field-wrap {
-  position: relative;
-  margin-bottom: 40px;
-}
-
-.top-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.top-row > div {
-  float: left;
-  width: 48%;
-  margin-right: 4%;
-}
-.top-row > div:last-child {
+  font: inherit;
   margin: 0;
 }
 
-.button {
-  border: 0;
-  outline: none;
-  border-radius: 0;
-  padding: 15px 0;
-  font-size: 2rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .1em;
-  background: #1ab188;
-  transition: all 0.5s ease;
-  -webkit-appearance: none;
-}
-.button:hover, .button:focus {
-  background: #179b77;
+input {
+  line-height: normal;
 }
 
-.button-block {
-  display: block;
+textarea {
+  overflow: auto;
+   border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+
+form {
+  margin: 50px 0;
+  max-width: 768px;
+  margin: 60px auto;
+}
+.lastN {
+  float: right;
+  width: 50%;
+}
+
+input[type='text'],
+[type='email'],
+select,
+textarea {
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0.875 0 0.875em 0;
   width: 100%;
 }
 
-.forgot {
-  margin-top: -20px;
-  text-align: right;
+.message {
+  float: none;
 }
-.border{
-  background-color: rgb(255, 142, 100);
-  padding: 10rem 0;
+
+.name {
+  float: left;
+  width: 45%;
+}
+
+
+textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  .underline {
+    width: 68px;
+  }
+
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+.check {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  padding: 0;
+  margin: 0;
+}
+.check-box {
+  width: 20px;
+  margin-right: 10px;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.message-label {
+  position: relative;
+  top: -1.6px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+.header-contact h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height, or 122% */
+  letter-spacing: -0.02em;
+  /* Gray/900 */
+  color: #101828;
+}
+.header-contact p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #475467;
+}
+@media screen and (max-width: 750px) {
+  input[type='text'],
+  [type='email'],
+  select,
+  textarea {
+    font-size: 0.875em;
+  }
+  .name {
+    float: none;
+    width: 100%;
+  }
+  .lastN {
+    float: none;
+    width: 100%;
+  }
 }
