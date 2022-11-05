@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       {' '}
-      <div className='container'>
+      <div className='container con'>
         <div className='menu-div'>
           <Menu />
         </div>
