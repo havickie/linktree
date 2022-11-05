@@ -125,7 +125,7 @@ a:hover {
   opacity: 1;
 }
 .con{
-  margin-top: 4rem;
+  margin-top: 2rem;
   margin-bottom: 4rem;
 }
 
@@ -146,7 +146,7 @@ a:hover {
     justify-content: flex-start;
     flex-direction: column;
     border-top: 1px solid #ededed;
-    padding: 2rem 0rem;
+    padding: 0;
   }
 
   .copy {
@@ -156,7 +156,7 @@ a:hover {
   .footer img {
     height: 2rem;
     text-align: left;
-    padding: 1rem 0;
+    margin: 1rem 0;
   }
 
   #profile__img {
