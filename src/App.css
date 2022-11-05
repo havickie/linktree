@@ -24,6 +24,7 @@ a:hover {
   justify-content: center;
   text-align: center;
   padding-top: 3rem;
+  margin-bottom: 4rem;
 }
 
 #profile__img {
@@ -46,11 +47,11 @@ a:hover {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #101828;
+  color: #222732;
   display: block;
   width: 100%;
   cursor: pointer;
@@ -139,6 +140,13 @@ a:hover {
   .menu-button {
     display: block;
   }
+  .middle {
+  transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+}
+.middle img{
+  height: 1.4rem;
+}
 
   .footer {
     display: flex;
