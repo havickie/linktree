@@ -141,7 +141,9 @@ const Contact = () => {
         </div>
       </div>
 
-      <Footer />
+    <div className="footer-div">
+       <Footer />
+    </div> 
     </>
   );
 };
