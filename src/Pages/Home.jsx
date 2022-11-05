@@ -1,9 +1,9 @@
 import React from 'react'
-import Profile from '../Components/Profile';
-import Menu from '../Components/Menu.js';
-import Links from '../Components/Links.js';
-import Footer from '../Components/Footer.js';
-import Socials from '../Components/Socials.js';
+import Profile from '../Components/Profile.jsx';
+import Menu from '../Components/Menu.jsx';
+import Links from '../Components/Links.jsx';
+import Footer from '../Components/Footer.jsx';
+import Socials from '../Components/Socials.jsx';
 
 const Home = () => {
   return (
